@@ -1,8 +1,6 @@
 # Teraform AWS NAT Module
 
-This module enables NAT in a specific VPC. It supports either a NAT Gateway or NAT Instance depending on preference, and can be launched in one or more Availability Zones.
-
-This module should normally be called directly from the VPC module, but exists as a standalone module mostly for cleaner code.
+This module launches a NAT Instance to enable internet traffic in a private subnet.
 
 ## Usage
 
